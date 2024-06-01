@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Inter:wght@400;700&display=swap');
+
+:root {
+  font-family: 'Inter', Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #242424;
+  color: #ffffff;
+}
+
+.todo-container {
+  text-align: center;
+  background-color: #1a1a1a;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px auto;
+  width: 100%;
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.todo-container h1 {
+  margin-bottom: 20px;
+  font-size: 1.5em;
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.todo-container input[type="text"] {
+  padding: 15px;
+  font-size: 18px;
+  width: calc(100% - 32px);
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  box-sizing: border-box;
+  filter: drop-shadow(0 0 1em #646cffaa);
+  word-break: break-word;
+}
+
+.todo-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-container ul li {
+  background-color: #1a1a1a;
+  padding: 15px;
+  margin: 5px 0;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  filter: drop-shadow(0 0 1em #646cffaa);
+}
+
+.todo-container ul li.completed {
+  text-decoration: line-through;
+  color: #646cff;
+}
+
+.todo-container ul li button {
+  padding: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #dc3545;
+  color: #ffffff;
+  transition: background-color 0.3s, transform 0.1s;
+}
+
+.todo-container ul li button:hover {
+  background-color: #c82333;
+  filter: drop-shadow(0 0 1.5em #c82333aa);
+}
+
+.todo-container ul li button:active {
+  transform: scale(0.98);
+}
+
+.editBtn {
+  background-color: #007bff;
+  margin-right: 5px;
+  filter: drop-shadow(0 0 1em #007bffaa);
+}
+
+.editBtn:hover {
+  background-color: #0056b3;
+  filter: drop-shadow(0 0 1.5em #0056b3aa);
+}
+
+.editBtn:active {
+  transform: scale(0.98);
+}
+
+.add {
+  border-radius: 9%;
+  border-color: #333;
+  background-color: #1a1a1a;
+}
+
+.p {
+  color: #504f4f;
+}
+button{
+  margin-bottom: 5px;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin: 5px;
+}
